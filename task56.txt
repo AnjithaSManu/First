@@ -1,0 +1,54 @@
+1. CLIENT SERVER COMMUNICATION:
+
+	Client/Server communication involves two components, namely a client and a server. They are usually multiple clients in communication with a single server. The clients send requests to the server and the server responds to the client requests.This exchange of messages is an example of inter-process communication. To communicate, the computers must have a common language, and they must follow rules so that both the client and the server know what to expect.
+
+2. PROTOCOLS:
+		In networking, a protocol is a standardized set of rules for formatting and processing data. Protocols enable computers to communicate with one another.
+
+a. SMTP: Simple Mail Transfer Protocol is one of the standard electronic mail communication protocols used by mail servers to transmit messages. It is a straightforward text-based protocol that allows sending emails across the internet and specifies at least one recipient to which the message content is forwarded.  
+
+b. FTP : FTP (File Transfer Protocol) is a standard network protocol used for the transfer of files from one host to another over a TCP-based network, such as the Internet. FTP works by opening two connections that link the computers trying to communicate with each other.
+
+c.HTTP : The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load webpages using hypertext links. HTTP is an application layer protocol designed to transfer information between networked devices and runs on top of other layers of the network protocol stack.
+
+3. ARCHITECTURE
+
+a. MVC: The Model-View-Controller (MVC) framework is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. Each architectural component is built to handle specific development aspects of an application. It isolates the business logic and presentation layer from each other. It was traditionally used for desktop graphical user interfaces (GUIs). 
+Components of MVC :
+The MVC framework includes the following 3 components:
+	Controller
+	Model
+	View
+Controller: The controller is the component that enables the interconnection between the views and the model so it acts as an intermediary. The controller doesn’t have to worry about handling data logic, it just tells the model what to do.
+View: The View component is used for all the UI logic of the application. It generates a user interface for the user. Views are created by the data which is collected by the model component but these data aren’t taken directly but through the controller. It only interacts with the controller.
+Model: The Model component corresponds to all the data-related logic that the user works with. This can represent either the data that is being transferred between the View and Controller components or any other business logic-related data. It can add or retrieve data from the database.
+b. MVT: Django is based on MVT (Model-View-Template) architecture. MVT is a software design pattern for developing a web application. 
+The MVT framework includes the following 3 components:
+	Controller
+	Model
+	Templates
+Model: The model is going to act as the interface of your data. It is responsible for maintaining data. It is the logical data structure behind the entire application and is represented by a database (generally relational databases such as MySql, Postgres). 
+View: The View is the user interface — what you see in your browser when you render a website. It is represented by HTML/CSS/Javascript and Jinja files.
+Template: A template consists of static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted. 
+ 
+4. FEATURES OF DJANGO
+
+1. Portable: Since Django is a Python-based web framework it runs on almost all platforms. Almost all Linux flavors, Windows Editions, and Mac Versions support Django. 
+2. Speed: Frameworks are usually developed to make the application development process easier and faster without having to write code from scratch to even simple things.
+3. Security: Django developers made security a priority while developing the language. Django has inbuilt standard encryption packages required to secure the website.
+4. Batteries-included: Batteries-included literally means that Django has everything a developer needs to develop a web application. Here batteries refers to libraries and tools required for common use cases.
+5. Open Source and Huge Community: Django is an Open Source Framework, the GitHub Repository of Django receives more than 2000 contributions every month. Due to its wide adaptiveness among the technology industry and its open-source nature, updates are frequently released thus it’s a continuously evolving framework.
+6. SEO Friendly: Most of the  Python source code is Human Readable, which makes it an SEO-Friendly framework. Sitemaps built-in with Django make it easier for developers to be unaware of Search Engine Optimization and yet enjoy its benefits.
+7. Scalability: Django can handle large amounts of traffic and provide API Usage to around 450+ million users. It is widely used among top technology industries like Dropbox which is a cloud technology for storing and sharing files.
+8. Superior Framework Documentation
+When it comes to languages and frameworks, they evolve on a regular basis. It is also hard to find a textbook for a framework since publishers can’t release new editions regularly.
+9. Free Flow Coding: Django does not import any packages unlike any other framework. It is a complete package and does not ask for any imports and third party libraries. It doesn’t allow bad code or unwanted functions by default therefore developers avoid application bugs before it goes live to the production environment.
+10. Versatile: Typically frameworks are only used by the publishing industry on the Internet. Django is by far the most versatile framework. Developers can build almost anything, ranging from social networks to financial platforms. In fact, the framework name “Django” literally means – multifaceted nature.
+
+
+
+
+
+
+
+
