@@ -1,0 +1,18 @@
+PYTHON WEB CGI-PROGRAMMING
+
+The word CGI is the acronyms of the "Common Gateway Interface", which is used to define how to exchange information between the web server and a custom script. The NCSA officially manages the CGI scripts.The Common Gateway Interface is a standard for external gateway programs to interface with the server, such as HTTP Servers.
+In simple words, it is the collection of methods used to set up a dynamic interaction between the server, and the client application. When a client sends a request to the webserver, the CGI programs execute that particular request and send back the result to the webserver.
+	The users may submit the information in web browser by using HTML <form> or <isindex> element. There is a server's special directory called cgi-bin, where cgi script is generally stored. When a client makes a request, the server adds the additional information to request.Python provides the CGI module, which helps to debug the script and also support for the uploading files through a HTML form.
+
+The given below is an example: 
+
+#!/usr/bin/python
+print("Content-type: text/html\n")
+print("<html>")
+print("<head>")
+print("<title>Hello, CGI!</title>")
+print("</head>")
+print("<body>")
+print("<h1>Hello, CGI!</h1>")
+print("</body>")
+print("</html>")
